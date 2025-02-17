@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwindcss for practice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Code:wght@300..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-slate-500 h-full w-full px-5 py-6">
+        <nav class="w-full h-70 text-center text-white flex items-center justify-between">
+            <div class="logo text-2xl">LOGO</div>
+            <ul class="flex justify-end mx-6">
+                <li class="mr-6 text-lg list-none"><a href="#">Home</a></li>
+                <li class="mr-6 text-lg list-none"><a href="#">About</a></li>
+                <li class="mr-6 text-lg list-none"><a href="#">Service</a></li>
+                <li class="mr-6 text-lg list-none"><a href="#">Contact</a></li>
+                <li class="mr-6 text-lg list-none"><a href="#">Info</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="section w-full h-[500px] bg-black px-6 flex justify-between py-6">
+        <div class="left w-1/2">
+            <h1 class="text-white text-xl mb-6">Dear user you have to constrate on our development.</h1>
+            <p class="text-yellow-50">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias vitae ex maxime ab
+                sunt quo fugit culpa, ratione natus adipisci blanditiis atque est, recusandae autem unde neque, ipsam
+                dignissimos similique.
+                Quisquam sunt expedita eligendi repellendus ipsum necessitatibus atque illo nesciunt id totam illum
+                tenetur vitae vel quod earum quam ab, voluptatem assumenda! At tempora consequatur minima quia,
+                dignissimos non! Deleniti!
+                Fugit, eos? Saepe ducimus iste nihil atque recusandae rerum expedita, omnis corporis, quae eligendi odit
+                doloribus, ad accusantium amet aliquam voluptates. Corrupti dolorum assumenda delectus totam quis quas
+                aliquid expedita!
+                Voluptatum natus sapiente enim, repudiandae, tempora ipsa omnis minus possimus at odio excepturi id
+                eius? Itaque temporibus cumque nobis veritatis unde est natus distinctio porro nihil rerum? Odit, esse
+                accusamus!</p>
+            <button class="bg-white rounded py-2 px-2 my-5 font-serif">Download Now</button>
+        </div>
+        <div class="right">
+            <h2 class="text-white text-xl">Some peole might this that they can do this!</h2>
+            <div class="max-w-md mx-auto mt-10">
+                <div class="overflow-x-auto no-scrollbar p-2">
+                    <div class="relative w-72">
+                        
+                        <!-- Selected Option (Dropdown Trigger) -->
+                        <button id="dropdownButton" class="w-full bg-white border border-gray-300 text-gray-700 rounded-lg p-3 
+                                 flex justify-between items-center cursor-pointer shadow-md 
+                                 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <span id="selectedValue">What you do think:</span>
+                            <i class="ri-arrow-drop-down-line text-3xl"></i>
+                        </button>
+                        <!-- Dropdown Menu -->
+                        <ul id="dropdownMenu"
+                            class=" w-full bg-white border border-gray-300 rounded-lg mt-2 shadow-lg ">
+                            <li class="p-3 hover:bg-gray-100 cursor-pointer" data-value="One">Ofcource I do </li>
+                            <li class="p-3 hover:bg-gray-100 cursor-pointer" data-value="Two">probably Not</li>
+                            <li class="p-3 hover:bg-gray-100 cursor-pointer" data-value="Three">Not sure</li>
+                        </ul>
+                    </div>
+                    <script src="script.js"></script>
+                </body>
+                </html>
